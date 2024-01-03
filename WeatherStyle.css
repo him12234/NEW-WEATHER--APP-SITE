@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.mdiv {
+  height: 100;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-image: url(Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather_app {
+  height: 700px;
+  width: 450px;
+  background-image: linear-gradient(
+    to right,
+    rgb(172, 177, 128),
+    rgb(23, 23, 210)
+  );
+  /* border: 2px solid black;  */
+  box-shadow: 0px 0px 30px skyblue;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.ip {
+  height: 40px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  position: relative;
+}
+.ip input {
+  border: none;
+  outline: none;
+  flex: 1;
+  height: 40px;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+.ip button {
+  height: 40px;
+  width: 70px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  cursor: pointer;
+}
+.weather_img{
+    height: 250px;
+}
+#temp{
+    font-size: 50px;
+    font-family: arial black;
+}
+#city{
+    font-size: 35px;
+    font-family: arial black;
+    color: orangered;
+}
+.humi{
+    height: 80px;
+}
+.info2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wind,.humidity{
+    margin: 10px 60px 0px;
+}
+
