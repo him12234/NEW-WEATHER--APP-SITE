@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WeatherStyle.css">
+    <title>WEATHER APP</title>
+</head>
+<body>
+    <div class="mdiv">
+        <div class="weather_app">
+            <h2 align="center">WEATHER FORECAST</h2>
+            <div class="ip">
+                <input type="text" id="userText">
+                <button onclick="getWeatherData();"><img src="Search.png" alt="" style="width: 40px;"></button>
+            </div>
+            <div class="info" align="center">
+                <img src="Clear.png" alt="" class="weather_img">
+                <h1 id="temp"> 21°C</h1>
+                <h2 id="city">Itomori</h2>
+
+            </div>
+            <div class="info2">
+                <div class="humidity">
+                    <img src="Humidity.png" alt="humidty" class="humi">
+                    <h3>HUMIDITY</h3>
+                    <h4 id="humidty-info">75%</h4>
+                </div>
+                <div class="wind">
+                    <img src="Wind.png" alt="wind" class="humi">
+                    <h3> WIND</h3>
+                    <h4 id="wind-info">5km/h</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="WeatherScript.js"></script>
+    <h1></h1>
+    <!-- ascasc -->
+    
+</body>
+</html>
